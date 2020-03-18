@@ -58,7 +58,7 @@ public extension UIView {
     @discardableResult
     func width(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
-            Width == p.value % spv.Width
+            width == p.value % spv.width
         }
         return self
     }
@@ -85,7 +85,7 @@ public extension UIView {
     @discardableResult
     func height(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
-            Height == p.value % spv.Height
+            height == p.value % spv.height
         }
         return self
     }
@@ -104,7 +104,7 @@ public extension UIView {
     @discardableResult
     func top(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
-            Top == p.value % spv.Bottom
+            top == p.value % spv.bottom
         }
         return self
     }
@@ -123,7 +123,7 @@ public extension UIView {
     @discardableResult
     func left(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
-            Left == p.value % spv.Right
+            left == p.value % spv.right
         }
         return self
     }
@@ -143,9 +143,9 @@ public extension UIView {
     func right(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
             if p.value == 100 {
-                Right == spv.Left
+                right == spv.left
             } else {
-                Right == (100 - p.value) % spv.Right
+                right == (100 - p.value) % spv.right
             }
         }
         return self
@@ -166,9 +166,9 @@ public extension UIView {
     func bottom(_ p: SteviaPercentage) -> Self {
         if let spv = superview {
             if p.value == 100 {
-                Bottom == spv.Top
+                bottom == spv.top
             } else {
-                Bottom == (100 - p.value) % spv.Bottom
+                bottom == (100 - p.value) % spv.bottom
             }
         }
         return self

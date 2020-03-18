@@ -32,51 +32,51 @@ public struct SteviaAttribute {
 
 public extension UIView {
     
-    var Width: SteviaAttribute {
+    var width: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .width)
     }
     
-    var Height: SteviaAttribute {
+    var height: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .height)
     }
     
-    var Top: SteviaAttribute {
+    var top: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .top)
     }
     
-    var Bottom: SteviaAttribute {
+    var bottom: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .bottom)
     }
     
-    var Left: SteviaAttribute {
+    var left: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .left)
     }
     
-    var Right: SteviaAttribute {
+    var right: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .right)
     }
     
-    var Leading: SteviaAttribute {
+    var leading: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .leading)
     }
     
-    var Trailing: SteviaAttribute {
+    var trailing: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .trailing)
     }
     
-    var CenterX: SteviaAttribute {
+    var centerX: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .centerX)
     }
     
-    var CenterY: SteviaAttribute {
+    var centerY: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .centerY)
     }
     
-    var FirstBaseline: SteviaAttribute {
+    var firstBaseline: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .firstBaseline)
     }
     
-    var LastBaseline: SteviaAttribute {
+    var lastBaseline: SteviaAttribute {
         return SteviaAttribute(view: self, attribute: .lastBaseline)
     }
 }

@@ -34,35 +34,35 @@ public struct SteviaLayoutXAxisAnchor {
 @available(iOS 9.0, *)
 public extension UILayoutGuide {
 
-    var Top: SteviaLayoutYAxisAnchor {
+    var top: SteviaLayoutYAxisAnchor {
         return SteviaLayoutYAxisAnchor(anchor: topAnchor)
     }
 
-    var Bottom: SteviaLayoutYAxisAnchor {
+    var bottom: SteviaLayoutYAxisAnchor {
         return SteviaLayoutYAxisAnchor(anchor: bottomAnchor)
     }
     
-    var Left: SteviaLayoutXAxisAnchor {
+    var left: SteviaLayoutXAxisAnchor {
         return SteviaLayoutXAxisAnchor(anchor: leftAnchor)
     }
     
-    var Right: SteviaLayoutXAxisAnchor {
+    var right: SteviaLayoutXAxisAnchor {
         return SteviaLayoutXAxisAnchor(anchor: rightAnchor)
     }
     
-    var Leading: SteviaLayoutXAxisAnchor {
+    var leading: SteviaLayoutXAxisAnchor {
         return SteviaLayoutXAxisAnchor(anchor: leadingAnchor)
     }
     
-    var Trailing: SteviaLayoutXAxisAnchor {
+    var trailing: SteviaLayoutXAxisAnchor {
         return SteviaLayoutXAxisAnchor(anchor: trailingAnchor)
     }
 
-    var CenterX: SteviaLayoutXAxisAnchor {
+    var centerX: SteviaLayoutXAxisAnchor {
         return SteviaLayoutXAxisAnchor(anchor: centerXAnchor)
     }
     
-    var CenterY: SteviaLayoutYAxisAnchor {
+    var centerY: SteviaLayoutYAxisAnchor {
         return SteviaLayoutYAxisAnchor(anchor: centerYAnchor)
     }
 }
@@ -150,11 +150,11 @@ public func - (left: SteviaLayoutXAxisAnchor, right: CGFloat) -> SteviaLayoutXAx
 @available(iOS 9.0, *)
 public extension UILayoutSupport {
     
-    var Top: SteviaLayoutYAxisAnchor {
+    var top: SteviaLayoutYAxisAnchor {
         return SteviaLayoutYAxisAnchor(anchor: topAnchor)
     }
     
-    var Bottom: SteviaLayoutYAxisAnchor {
+    var bottom: SteviaLayoutYAxisAnchor {
         return SteviaLayoutYAxisAnchor(anchor: bottomAnchor)
     }
 }

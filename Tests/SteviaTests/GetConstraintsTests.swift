@@ -150,7 +150,7 @@ class GetConstraintsTests: XCTestCase {
     
     func testCanGetCenterXConstraint() {
         XCTAssertNil(v.centerXConstraint)
-        v.CenterX == spv.CenterX + 27
+        v.centerX == spv.centerX + 27
         let c = v.centerXConstraint
         XCTAssertNotNil(c)
         XCTAssertEqual(c?.constant, 27)
@@ -166,7 +166,7 @@ class GetConstraintsTests: XCTestCase {
     
     func testCanGetCenterYConstraint() {
         XCTAssertNil(v.centerYConstraint)
-        v.CenterY == spv.CenterY - 32
+        v.centerY == spv.centerY - 32
         let c = v.centerYConstraint
         XCTAssertNotNil(c)
         XCTAssertEqual(c?.constant, -32)
